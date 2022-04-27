@@ -588,12 +588,12 @@ body.popup-show::after {
 }
 @media (min-width: 76.25em) {
   .plus-footer {
-    margin-bottom: 0.1875rem;
+    margin-bottom: 0.09375rem;
   }
 }
 @media (min-width: 25em) and (max-width: 76.25em) {
   .plus-footer {
-    margin-bottom: calc(0.125rem + 0.0625 * (((100vw - 25rem)) / ((51.25))));
+    margin-bottom: calc(0.125rem + -0.03125 * (((100vw - 25rem)) / ((51.25))));
   }
 }
 @media (max-width: 25em) {
@@ -1418,6 +1418,7 @@ body.popup-show::after {
 }
 .start__video {
   position: relative;
+  z-index: 2;
 }
 .start__video iframe {
   position: absolute;
