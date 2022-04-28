@@ -1838,7 +1838,7 @@ body.popup-show::after {
 .menedger__images-small {
   position: absolute;
   right: 25%;
-  z-index: 1;
+  z-index: -1;
   bottom: 17%;
 }
 @media (max-width: 76.25em) {
