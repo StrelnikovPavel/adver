@@ -304,16 +304,6 @@ body.popup-show::after {
   }
 }
 
-.popup_show {
-  visibility: visible;
-  overflow: auto;
-}
-
-.popup_show .popup__content {
-  visibility: visible;
-  transform: scale(1);
-}
-
 .popup__wrapper {
   display: flex;
   flex-direction: column;
@@ -400,6 +390,15 @@ body.popup-show::after {
 }
 .lock .popup__content {
   visibility: visible;
+}
+
+.popup-show {
+  visibility: visible;
+  overflow: auto;
+}
+.popup-show .popup__content {
+  visibility: visible;
+  transform: scale(1);
 }
 
 [class*=-ibg] {
